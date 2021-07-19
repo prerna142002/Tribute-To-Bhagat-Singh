@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(229, 255, 255);
+}
+
+#title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:bolder;
+    margin:0px;
+}
+
+
+#image{
+    width:15rem;
+    height: 18rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+}
+
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-caption{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+.smaller{
+    font-size:medium;
+    margin:1.5rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#tribute-info {
+    display: grid;
+    margin: 0px 2rem;
+}
+
+#tribute-info h3{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#tribute-info li{
+    background: rgb(192, 240, 240);
+    /* #bbb8b8; */
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    list-style: none;
+}
+
+#tribute-link{
+    text-align: center;
+
+}
+
